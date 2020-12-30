@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>粒子文字</title>
+	<title>恋爱计时器</title>
 	<link rel="icon" href="./img/logo_32.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="./img/logo_32.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -100,18 +100,18 @@
 <body>
 <!--更改为你女朋友的头像-->
 <div class="cs">
-    <img src="./img/cp09.jpg" id="logo">
+    <img src="./img/l9.jpg" id="logo">
 </div>
 <canvas class="canvas" width="1820" height="905"></canvas>
 <p class="text" style="color: #ed3073;">
-    我 们 相 识
+    我 们 相 爱
     <br/>
     <span id="span_dt_dt"></span>
 </p>
 <script language="javascript">
     function show_date_time() {
         window.setTimeout("show_date_time()", 1000);
-        BirthDay = new Date("2/20/2018 00:00:00");//这个日期是可以修改的
+        BirthDay = new Date("9/26/2020 14:00:00");//这个日期是可以修改的
         today = new Date();
         timeold = (today.getTime() - BirthDay.getTime());
         sectimeold = timeold / 1000
@@ -135,7 +135,7 @@
             S.Drawing.init('.canvas');
             document.body.classList.add('body--ready');
 			//想说的话
-            S.UI.simulate("宝贝|I'm|Xiao|Bai|Nice|to|Meet|You|#countdown 3|#time");
+            S.UI.simulate("最终|我们|的爱|究竟|不会变|#countdown 3|#time");
             S.Drawing.loop(function () {
                 S.Shape.render();
             });
