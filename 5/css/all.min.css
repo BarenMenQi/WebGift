@@ -803,7 +803,10 @@ body,button {
 	
 }
 .page-30 img {
-	position:relative;
+	position:absolute;
+	
+	left:0
+
 	
 	
 }
