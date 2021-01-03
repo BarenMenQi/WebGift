@@ -803,9 +803,9 @@ body,button {
 	
 }
 .page-30 img {
-	position:absolute;
-	bottom:0;
-	left:0
+	position:relative;
+	
+	
 }
 .page-31 {
 	background-color:#fbf5e9
