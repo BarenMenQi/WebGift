@@ -768,8 +768,8 @@ body,button {
 	text-align:center
 }
 .page-28 {
-	background:#b7e7f3 url(img/iali40_bg.jpg) bottom repeat-x;
-	padding:0
+	background: url(img/w1.jpg) 
+	
 }
 .page-28 img {
 	position:absolute;
@@ -777,11 +777,7 @@ body,button {
 	left:3em
 }
 .page-28 h3 {
-	position:absolute;
-	right:1em;
-	bottom:360px;
-	text-align:right;
-	color:#127184
+	
 }
 .page-29 {
 	background:#0d85d1;
@@ -795,9 +791,9 @@ body,button {
 	color:#eef
 }
 .page-30 {
-	background:#fff url(img/iali76_bg.png) center bottom repeat-x;
-	padding:0;
-	padding:0
+	background: url(img/iali76_bg.png) center bottom repeat-x;
+	
+	
 }
 .page-30 img {
 	position:absolute;
