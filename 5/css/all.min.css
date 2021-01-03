@@ -768,7 +768,9 @@ body,button {
 	text-align:center
 }
 .page-28 {
-	background: url(img/w1.jpg) 
+	background:#b7e7f3 url(img/iali40_bg.jpg) bottom repeat-x;
+	padding:0
+
 	
 }
 .page-28 img {
